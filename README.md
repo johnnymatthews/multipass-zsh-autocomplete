@@ -26,15 +26,15 @@ Dead simple:
 
 1. Download the completion file into that dir:
 
-  ```shell
-  wget -O ~/.config/zsh/completions/_multipass https://raw.githubusercontent.com/johnnymatthews/multipass-zsh-autocomplete/refs/heads/yolo/_multipass
-  ```
+    ```shell
+    wget -O ~/.config/zsh/completions/_multipass https://raw.githubusercontent.com/johnnymatthews/multipass-zsh-autocomplete/refs/heads/yolo/_multipass
+    ```
 
-  If you've not got Wget installed (and don't wanna install it), use Curl like a pleb:
+    If you've not got Wget installed (and don't wanna install it), use Curl like a pleb:
 
-  ```shell
-  curl -o ~/.config/zsh/completions/_multipass https://raw.githubusercontent.com/johnnymatthews/multipass-zsh-autocomplete/refs/heads/yolo/_multipass
-  ```
+    ```shell
+    curl -o ~/.config/zsh/completions/_multipass https://raw.githubusercontent.com/johnnymatthews/multipass-zsh-autocomplete/refs/heads/yolo/_multipass
+    ```
 
 1. Add these lines to your `~/.zshrc`:
    
